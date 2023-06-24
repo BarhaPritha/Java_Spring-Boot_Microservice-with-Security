@@ -1,5 +1,4 @@
-# BinaryWizards
-## Online Book Shop Micro-Service Project
+# Online Book Shop Micro-Service Project
 
 This project demonstrates the implementation of microservice using Spring Boot, Netflix Eureka Client and Security using Spring Boot and JSON Web Tokens (JWT).
 
@@ -63,16 +62,5 @@ The application will run at http://localhost:8080
 | PATCH   | Update One Book   | http://localhost:8080/book-server/update/{id} | ADMIN       | bookName, authorName, genre, price, quantity                |
 | DELETE  | Delete One Book   | http://localhost:8080/book-server/delete/{id} | ADMIN       |                                                             |
 | PATCH   | Buy One Book      | http://localhost:8080/book-server/book/buy    | USER        | bookId, quantity                                            |
-
-<br>
-
-## Contributors
-
-| Name                 | Email                            |
-|----------------------|----------------------------------|
-| Md. Mehedi Hassan    | mdmehedi.hassan@bjitacademy.com  |
-| Barha Meherun Pritha | meherun.pritha@bjitacademy.com   |
-| Md. Taslim           | md.taslim@bjitacademy.com        |
-| Arup Chakraborty     | arup.chakraborty@bjitacademy.com |
 
 <br>
